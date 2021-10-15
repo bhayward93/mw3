@@ -42,8 +42,8 @@ class Sign
     }
 
     /**
-     * Set the private key
-     * @param string $key - the private key
+     * Set the RPC endpoint for web3 provider
+     * @param string $key - the RPC endpoint.
      * @return $this
      */
     public function setRpcEndpoint($key)
